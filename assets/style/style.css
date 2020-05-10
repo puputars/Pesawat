@@ -1,0 +1,39 @@
+body {
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+}
+
+header{
+	display: inline;
+}
+
+.atas {
+	width: 100%;
+	background-image: url("../img/bgatas.jpg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 600px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the  */
+	background-size: cover; /* Resize*/
+}
+
+nav{
+	background-color: #4c4c4c;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+}
+
+nav li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+nav a{
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}

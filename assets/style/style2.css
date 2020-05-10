@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+}
+
+
+
+.atas {
+	margin: 0;
+	width:100%;
+	height: 672px;
+	float: left;
+	background-image: url("../img/bg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	position: relative;
+	
+}
+
+.atas-opacity {
+	margin: 0;
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	text-align: center;
+	margin: 0;
+	position: relative;
+
+}
+
+.title {
+	margin-top: 20px;
+	background-color: red;
+	width: 500px;
+	height: 200px;
+}
+
+
+.atas h1 {
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 4em;
+	margin-top: 50px;
+}
+
+
+
+nav {
+	position:sticky;
+	margin:0;
+
+}
+
+
+nav li{
+	display: inline;
+	list-style-type: none;
+}
+
+nav a{
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.menuluar {
+	width: 1000px;
+	height: 50px;
+	margin: auto;
+	margin-top: 400px;
+	background-color: ;
+	text-decoration: none;
+}
+
+.menudalam {
+	width: 230px;
+	height: 50px;
+	background-color: ;
+	float: left;
+}
+
+.textmenu {
+	width: 155px;
+	margin: auto;
+	height: 50px;
+	border: 4px solid white;
+	border-radius: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.3);
+	position: relative;
+}
+
+#content {
+	float:left;
+	width: 75%;
+	height: 500px;
+	background-color: ;
+}
+
+.card {
+	margin-top: 20px;
+	background-color: ;
+	padding: 20px;
+}
+
+.title-card {
+	margin: 0 auto;
+	width: 350px;
+	height: 70px;
+	background-color: ;
+}
+
+.icon-card {
+	margin: 0;
+	width: 70px;
+	height: 70px;
+	background-color: ;
+	float: left;
+}
+
+.pictsatu {
+	background-image: url("../img/deskripsi.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+
+.pictdua {
+	background-image: url("../img/sejarah.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+
+.judul-card {
+	margin: 0 auto;
+	width: 280px;
+	height: 70px;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: ;
+	float: left;
+	padding: 15px;
+}
+
+.judul-card h2{
+	margin: 0;
+}
+
+.entry-content{
+	width: 90%;
+	background-color: ;
+	padding: 20px 20px 0px 20px;
+	margin: 0 auto;
+	text-align: justify;
+	font-size: 1em;
+}
+
+.entry-content p{
+	margin-bottom: 20px;
+}
+
+.end-content {
+	width: 100%;
+	height: 10px;
+	border-radius: 10px;
+	background-color: black;
+}
